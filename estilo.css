@@ -719,6 +719,7 @@ button.prev:hover, button.next:hover {
     text-align: center;
     position: relative;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .card:hover {
