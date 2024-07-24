@@ -40,8 +40,3 @@ showSlide(slideIndex);
 
 
 
-
-
-
-
-
