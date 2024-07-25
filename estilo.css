@@ -63,6 +63,9 @@ body{
     background: #fb8c00;
 }
 
+
+
+
 .main{
     height: 640px;
     display: flex;
@@ -72,7 +75,7 @@ body{
 }
 
 .main h4{
-    font-size: 32px;
+    font-size: 39px;
     color: #fff;
     font-weight: 600;
 }
@@ -476,7 +479,7 @@ footer .cols .news-col form button i{
     }
 
     .main h4{
-        font-size: 24px;
+        font-size: 39px;
     }
 
     .main p.title{
@@ -519,11 +522,11 @@ footer .cols .news-col form button i{
     }
 
     .main h4{
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .main p.title{
-        font-size: 28px;
+        font-size: 16px;
     }
 
     .main p.subtitle{
@@ -580,7 +583,7 @@ footer .cols .news-col form button i{
     }
 
     .main p.subtitle{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .guarantee .item .info h3{
@@ -842,10 +845,47 @@ button.prev:hover, button.next:hover {
     right: 10px;
 }
 
+.card-hover:hover {
+    transform: translateY(-10px); 
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+  }
 
 
+  .btn-contact {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
 
+.btn-whatsapp {
+    background-color: #25D366;
+    color: white;
+}
 
+.btn-facebook {
+    background-color: #3B5998;
+    color: white;
+}
 
+.btn-instagram {
+    background-color: purple;
+    color: white;
+}
+
+.btn-linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+
+.btn-contact:hover {
+    opacity: 0.8;
+}
 
 

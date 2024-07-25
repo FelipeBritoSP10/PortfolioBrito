@@ -38,5 +38,3 @@ showSlide(slideIndex);
 
 
 
-
-

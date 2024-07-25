@@ -6,27 +6,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://unpkg.com/tailwindcss@^3.3/dist/tailwind.min.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="estilo.css">
-    <script src="moviment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-6Ffg8WPCFlqV5C5G5rIXPqfiVu/FZg8T8C/2dz8d2Y4KovpZfT6t6d2jzrkpIjzE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-1J2O+jW5Re9i3e5oH0p7rghjSe5aeFfO4bOnPjJ3W5oTLv4EdB1eX8+mlMfwO1tS" crossorigin="anonymous"></script>    <script src="moviment.js"></script>
     <title>Felipe Brito - Portfólio</title>
 </head>
 <body>
-<div class="navbar">
-    <h2>Felipe Brito</h2>
-<ul>
-<li><a href="#">Início</a></li>
-<li><a href="#">Sobre</a></li>
-<li><a href="#">Serviços</a></li>
-<li><a href="#">Habilidades</a></li>
-<li><a href="#">Contatos</a></li>
-</ul>
-<button class="hire-btn">Me contrate</button>
-</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" style="color: #fb8c00; cursor:pointer;">Felipe Brito</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Início <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Depoimentos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 
 <div class="main">
-    <h4>Olá, eu sou o <span>Felipe Brito</span> </h4>
+    <h4>Olá eu sou o <span>Felipe Brito</span></h4> 
     <p class="title">Programador Front-End</p>
     <p class="subtitle">Desenvolvo soluções web elegantes e eficazes.</p>
     <img src="logo.png">
@@ -278,107 +300,107 @@
     <h5 class="seprator">Depoimentos</h5>
     </center>
 
-  <div class="pb-5">
-    <div class="container flex flex-col items-center justify-center w-full p-6 mx-auto mt-4 text-center xl:px-0">
-        <p class="max-w-2xl py-4 text-lg leading-normal text-gray-200 lg:text-xl xl:text-xl dark:text-gray-300">
-            O que dizem sobre mim?
-        </p>
-    </div>
-    <div class="container p-4 mx-auto mb-8 xl:px-0">
-        <div class="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
-            <div class="lg:col-span-2 xl:col-auto">
-                <div class="flex flex-col justify-between w-full h-full px-5 py-5 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
-                    <p class="text-2xl leading-normal">
-                        <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">Felipe</mark> é um ótimo professor paciente, bem-humorado, e dedicado aos alunos. Super recomendo!
-                    </p>
-                    <div class="flex items-center mt-8 space-x-3">
-                        <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                        </div>
-                        <div>
-                            <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Dayanny Siqueira</mark></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Outros depoimentos -->
-            <div class="">
-                <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
-                    <p class="text-2xl leading-normal">
-                        O <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">Felipe</mark> tem o dom de explicar e tornou HTML e CSS fáceis de entender, me ajudando a escolher minha área na tecnologia.
-                    </p>
-                    <div class="flex items-center mt-8 space-x-3">
-                        <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                        </div>
-                        <div>
-                            <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Enzo Sevilhano</mark></div>
+    <div class="pb-5">
+        <div class="container flex flex-col items-center justify-center w-full p-6 mx-auto mt-4 text-center xl:px-0">
+            <p class="max-w-2xl py-4 text-lg leading-normal text-gray-200 lg:text-xl xl:text-xl dark:text-gray-300">
+                O que dizem sobre mim?
+            </p>
+        </div>
+        <div class="container p-4 mx-auto mb-8 xl:px-0">
+            <div class="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
+                <div class="lg:col-span-2 xl:col-auto">
+                    <div class="flex flex-col justify-between w-full h-full px-5 py-5 bg-white dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 card-hover">
+                        <p class="text-2xl leading-normal">
+                            <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded">Felipe</mark> é um ótimo professor paciente, <br>bem-humorado, e dedicado aos alunos. Super recomendo!
+                        </p>
+                        <div class="flex items-center mt-8 space-x-3">
+                            <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
+                            </div>
+                            <div>
+                                <div class="text-base md:text-lg lg:text-xl font-medium">
+                                <mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Dayanny Siqueira</mark></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="">
-                <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
-                    <p class="text-2xl leading-normal">
-                        Profissional competente e, acima de tudo, habilidoso. Possui raciocínio preciso, cirúrgico, ao criar um código. Uma honra trabalhar com o <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">Felipe</mark>.
-                    </p>
-                    <div class="flex items-center mt-8 space-x-3">
-                        <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                        </div>
-                        <div>
-                            <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Jorge Nascimento</mark></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="">
-                <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
-                    <p class="text-2xl leading-normal">
-                        <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">Felipe</mark> é um programador incrível, com habilidades notáveis em resolução de problemas, pensamento lógico, aprendizado de novas tecnologias e comunicação. É uma honra trabalhar com ele!
-                    </p>
-                    <div class="flex items-center mt-8 space-x-3">
-                        <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                          
-                        </div>
-                        <div>
-                            <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Dolores Oliveira</mark></div>
+
+                <div class="">
+                    <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 card-hover">
+                        <p class="text-2xl leading-normal">
+                            O <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded">Felipe</mark> tem o dom de explicar e tornou o <br>HTML e CSS fáceis de entender, me ajudando a escolher minha área na tecnologia.
+                        </p>
+                        <div class="flex items-center mt-8 space-x-3">
+                            <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
+                            </div>
+                            <div>
+                                <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Enzo Sevilhano</mark></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="">
-                <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
-                    <p class="text-2xl leading-normal">
-                        <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">Felipe</mark> é dedicado, determinado e prestativo, sempre disposto a ajudar. Seria um ótimo parceiro de negócios!
-                    </p>
-                    <div class="flex items-center mt-8 space-x-3">
-                        <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                        
-                        </div>
-                        <div>
-                            <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Mario Sergio</mark></div>
+                <div class="">
+                    <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 card-hover">
+                        <p class="text-2xl leading-normal">
+                            Profissional competente e, acima de tudo, habilidoso. Possui raciocínio preciso, cirúrgico, ao criar um código. Uma honra trabalhar com o <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded">Felipe</mark>.
+                        </p>
+                        <div class="flex items-center mt-8 space-x-3">
+                            <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
+                            </div>
+                            <div>
+                                <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Jorge Nascimento</mark></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="">
-                <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
-                    <p class="text-2xl leading-normal">
-                        Com os ensinamentos do <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">Felipe Brito</mark> pude estabelecer melhor o meu conhecimento em JavaScript. Sua didática faz toda diferença para o aprendizado do aluno.
-                    </p>
-                    <div class="flex items-center mt-8 space-x-3">
-                        <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                          
+                <div class="">
+                    <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 card-hover">
+                        <p class="text-2xl leading-normal">
+                            <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded">Felipe</mark> é um programador incrível, com habilidades notáveis em resolução de problemas, pensamento lógico, aprendizado de novas tecnologias e comunicação. É uma honra trabalhar com ele!
+                        </p>
+                        <div class="flex items-center mt-8 space-x-3">
+                            <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
+                              
+                            </div>
+                            <div>
+                                <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Dolores Oliveira</mark></div>
+                            </div>
                         </div>
-                        <div>
-                            <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Filipe Silva</mark></div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 card-hover">
+                        <p class="text-2xl leading-normal">
+                            <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded">Felipe</mark> é dedicado, determinado e prestativo, sempre disposto a ajudar. Seria um ótimo parceiro de negócios!
+                        </p>
+                        <div class="flex items-center mt-8 space-x-3">
+                            <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
+                            
+                            </div>
+                            <div>
+                                <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Mario Sergio</mark></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="">
+                    <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 card-hover">
+                        <p class="text-2xl leading-normal">
+                            Com os ensinamentos do <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded">Felipe Brito</mark> pude estabelecer melhor o meu conhecimento em JavaScript. Sua didática faz toda diferença para o aprendizado do aluno.
+                        </p>
+                        <div class="flex items-center mt-8 space-x-3">
+                            <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
+                              
+                            </div>
+                            <div>
+                                <div class="text-xl font-medium"><mark class="mx-1 text-gray-900 bg-[#ffb742] rounded-md ring-[#ffb742] ring-4 dark:ring-[#ffb742] dark:bg-[#ffb742] dark:text-gray-900">Filipe Silva</mark></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
 <footer>
     <div class="start">
         <h3>Iniciar um projeto</h3>
@@ -390,6 +412,10 @@
         <div class="about-col">
             <h3>Felipe Brito.</h3>
             <p>Programador Front end</p>
+            <br>
+            <p class="mb-1"><strong>Email:</strong> <a href="mailto:felipe.fab8@gmail.com">felipe.fab8@gmail.com</a></p>
+            <br>
+            <p class="mb-1"><strong>Telefone:</strong> <a href="tel:+559181784689">+55 91 8178-4689</a></p>
         </div>
 
         <div class="links-col">
@@ -403,13 +429,18 @@
 
         <div class="links-col">
             <h4>Redes sociais</h4>
-            <a href="https://www.instagram.com/lipe.sp.10/">Instagram</a>
-            <a href="https://www.linkedin.com/in/felipe-brito-09a355285/">Linkedin</a>
-            <a href="https://github.com/FelipeBritoSP10">Github</a>
+            <a href="https://www.instagram.com/lipe.sp.10/" >
+            <i class="fab fa-instagram fa-1x"></i></a>
+            <a href="https://www.linkedin.com/in/felipe-brito-09a355285/">
+            <i class="fab fa-linkedin fa-1x"></i></a>
+            <a href="https://github.com/FelipeBritoSP10">
+            <i class="fab fa-github fa-1x"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100005402199216">
+            <i class="fab fa-facebook fa-1x"></i></a>
         </div>
-
         <div class="news-col">
-            <h4>NewsLetter</h4>
+            <br>
+            <h4>Notícias</h4>
             <p>Digite seu e-mail e receba notificações sobre novidades.</p>
 
             <form>
@@ -425,8 +456,33 @@
     <br>
     <center>
     <p style="color: white;">&copy; 2024 Felipe Brito. <br>Todos os direitos reservados.</p>
+    <a href="#" style="color: #fb8c00;" data-toggle="modal" data-target="#contactModal">Fale comigo.</a> <br>
 </center>
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Deseja falar comigo?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Escolha um dos seguintes meios para entrar em contato:</p>
+                <a href="https://wa.me/559181784689?text=Olá%20Felipe" class="btn btn-whatsapp" target="_blank">WhatsApp</a>
+                <a href="https://www.facebook.com/profile.php?id=100005402199216" class="btn btn-facebook" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/lipe.sp.10/" class="btn btn-instagram" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/felipe-brito-09a355285//" class="btn btn-linkedin" target="_blank">LinkedIn</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
