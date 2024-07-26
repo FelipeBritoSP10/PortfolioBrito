@@ -888,4 +888,35 @@ button.prev:hover, button.next:hover {
     opacity: 0.8;
 }
 
+.modal-content {
+    border-radius: 8px; /* Ajusta a borda do modal */
+}
 
+
+
+
+
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KICA8cGF0aCBkPSJNNSA1djIuNzFjMCAuNTMuNTMgMS41IDMuMCAxLjUgMy42djUuMDFjLjUtMS4yLTEuMy0yLTEuNS0yLjkzSDMuNUwxNS41IDIuNWMwLS4xNS0uMjMtLjI2LS4yNi0uMzUuMS0uMTkuMTktLjI0LjMxLS40Ni40NS0xLjMzLS4zNWEuMy4zIDAgMCAxIDAgMi4zNEwyMy41IDI1di0yLjYwMDFjLS4yIDAtLjQtLjA4LS41LS4xMi0xLjA2QzE3LjU3IDIuNTMgMTUuNTMgMiAzLjU4IDMgMy41eiIvPjwvc3ZnPg==');
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler {
+        display: block; /* Garante que o botão de toggle esteja visível em telas menores */
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-toggler {
+        display: ; /* Oculta o botão de toggle em telas maiores */
+    }
+}
