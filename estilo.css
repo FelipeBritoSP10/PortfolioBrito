@@ -7,63 +7,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     height: 100vh;
     background: #212529;
 }
-
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    padding: 0 50px;
-}
-
-.navbar h2{
-    color: #ffb742;
-    font-size: 29px;
-    font-weight: 600;
-}
-
-.navbar ul{
-    display: flex;
-}
-
-.navbar ul li{
- list-style: none;
-}
-
-.navbar ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    margin-right: 25px;
-    transition: color 0.3s ease;
-}
-.navbar ul li:hover a{
-    color: #ffb742;
-}
-
-.navbar ul li:last-child a{
-    margin: 0;
-}
-
-.hire-btn{
-    background: #ffb742;
-    padding: 6px 30px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-}
-
-.hire-btn:hover{
-    background: #fb8c00;
-}
-
-
 
 
 .main{
@@ -898,7 +849,7 @@ button.prev:hover, button.next:hover {
 
 
 .navbar-toggler {
-    border: none;
+    border: block;
     background: transparent;
 }
 
@@ -907,16 +858,17 @@ button.prev:hover, button.next:hover {
     background-size: contain;
     width: 30px;
     height: 30px;
+    color: white;
 }
 
 @media (max-width: 767px) {
     .navbar-toggler {
-        display: block; /* Garante que o botão de toggle esteja visível em telas menores */
+        display: block; 
     }
 }
 
 @media (min-width: 768px) {
     .navbar-toggler {
-        display: ; /* Oculta o botão de toggle em telas maiores */
+        display: block ; 
     }
 }
