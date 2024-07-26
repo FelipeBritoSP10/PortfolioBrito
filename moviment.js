@@ -43,3 +43,30 @@ const menu = document.getElementById('mobile-menu');
 toggleButton.addEventListener('click', () => {
     menu.classList.toggle('hidden');
 });
+
+
+
+
+
+
+
+
+document.getElementById('openModal').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('contactModal').classList.remove('hidden');
+});
+
+// Fechar o modal
+function closeModal() {
+    document.getElementById('contactModal').classList.add('hidden');
+}
+
+document.getElementById('closeModal').addEventListener('click', closeModal);
+document.getElementById('closeModalFooter').addEventListener('click', closeModal);
+
+// Fechar o modal se clicar fora do conteúdo do modal
+window.addEventListener('click', function(event) {
+    if (event.target === document.getElementById('contactModal')) {
+        closeModal();
+    }
+});

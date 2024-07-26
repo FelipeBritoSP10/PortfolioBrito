@@ -872,3 +872,38 @@ button.prev:hover, button.next:hover {
         display: block ; 
     }
 }
+
+.hire-btn {
+    display: inline-block;
+    padding: 10px 20px; /* Espaço interno ajustado */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e67e22;
+    border-radius: 8px;
+    border: 2px solid #e67e22; /* Borda com cor definida */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.1s; /* Adiciona transição suave para transform */
+}
+
+.hire-btn:focus {
+    outline: none;
+    box-shadow: black; 
+}
+
+.hire-btn:active {
+    background-color: #d35400; 
+    border-color: #d35400; 
+    transform: translateY(4px); 
+}
+
+.hire-btn:hover {
+    background-color: #d35400; 
+    border-color: #d35400; 
+    color: #e9ecef; 
+}
+
+.hidden {
+    display: none;
+}
